@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#countdown .container {
+    background: tomato;
+    margin-top: 50px;
+    box-shadow: 0px 0px 8px;
+    border-radius: 5px;
+}
+#countdown h1 {
+    font: 700 30px/30px sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+#countdown .time {
+    display: flex;
+    justify-content: center;
+}
+#countdown .time p {
+    font: 700 30px/30px sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+    background: #e4b257;
+    width: 50px;
+    text-align: center;
+    padding: 0 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2.5px #3d3d3d;
+}
+#countdown .parameter {
+    display: flex;
+    justify-content: center;
+}
+#countdown .parameter p {
+    color: #ffffff;
+    font: 500 20px/30px sans-serif;
+    margin-left: 20px;
+    width: 50px;
+    text-align: center;
+    padding: 0 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.expired {
+    font: 700 30px/30px sans-serif;
+    text-transform: uppercase;
+    color: rgb(238, 255, 0);
+    text-align: center;
+    padding: 30px 0;
+    text-shadow: 0 0 5px black;
+}
